@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oonixxxxx | Fullstack Developer</title>
+    <meta name="description" content="Портфолио fullstack разработчика">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#home" class="nav-link">Главная</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Навыки</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Проекты</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+                        Привет, я <span class="text-gradient">oonixxxxx</span>
+                    </h1>
+                    <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="300">
+                        Fullstack разработчик и UI дизайнер
+                    </p>
+                    <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="400">
+                        <div class="mouse"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Технологии</h2>
+                <div class="skills-grid">
+                    <div class="skill-card" data-aos="zoom-in">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>React, Node.js, TypeScript</p>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                        <p>Django, Data Analysis</p>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fas fa-database"></i>
+                        <h3>PostgreSQL</h3>
+                        <p>Оптимизация и проектирование БД</p>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                        <p>Flexbox, Grid, Анимации</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Проекты</h2>
+                <div class="projects-grid">
+                    <article class="project-card" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="https://source.unsplash.com/random/800x600?code" alt="Проект" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <h3>Образовательная платформа</h3>
+                            <p>Интерактивная система онлайн-обучения с курсами и тестами</p>
+                            <ul class="tech-list">
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>PostgreSQL</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-image">
+                            <img src="https://source.unsplash.com/random/800x600?app" alt="Проект" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <h3>Мобильное приложение</h3>
+                            <p>Фитнес-трекер с интеграцией умных устройств</p>
+                            <ul class="tech-list">
+                                <li>React Native</li>
+                                <li>Python</li>
+                                <li>MongoDB</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Контакты</h2>
+                <div class="social-grid">
+                    <a href="https://github.com/oonixxxxx" class="social-card" data-aos="zoom-in">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://t.me/onixexe" class="social-card" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="fab fa-telegram"></i>
+                        <span>Telegram</span>
+                    </a>
+                    <a href="https://linkedin.com" class="social-card" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://youtube.com" class="social-card" data-aos="zoom-in" data-aos-delay="300">
+                        <i class="fab fa-youtube"></i>
+                        <span>YouTube</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 oonixxxxx. Все права защищены</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
